@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GoGo</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBWxGdo7HwUu1qXQo9rQYMf3XeZvvY98yM</string>
 </resources>

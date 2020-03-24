@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.activity.test.TestActivity">
+    tools:context=".view.activity.test.MapTestActivity">
 
     <RelativeLayout
         app:layout_constraintTop_toTopOf="parent"
@@ -15,24 +15,24 @@
         android:layout_height="fill_parent" >
 
         <fragment
-            android:id="@+id/mMap"
+            android:id="@+id/mapTest"
             android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <Button
+        <ImageView
             android:visibility="gone"
-            android:id="@+id/myLocationButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/myLocationButtonTest"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:layout_alignParentRight="true"
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/ic_pig" />
+            android:background="@drawable/car" />
     </RelativeLayout>
 
     <fragment
-        android:id="@+id/autocomplete"
+        android:id="@+id/autocompleteTest"
         android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
 
     <Button
         android:text="find"
-        android:id="@+id/btnDirection"
+        android:id="@+id/btnDirectionTest"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
